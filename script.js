@@ -52,3 +52,7 @@ imagenElemento3.addEventListener("pointerover", () => {
 
 const audio = document.getElementById("song");
 audio.volume = 0.2;
+
+audio.play().catch(error => {
+    console.log("La reproducción automática fue bloqueada:", error);
+  });
