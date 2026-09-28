@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquer Lara Samantha Mabeth, 4 A Bis - Base de datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   
+    <div class="title">
+        <h1>¿Qué aprendi en la clase de base de datos?</h1>
+        <h4>Samantha Mabeth Esquer Lara, 4 A BIS</h4>
+    </div>
+
+    <div class="cara">
+        <img src="img/c1.png"
+        id="carita"
+        alt="Globo de texto - Base de datos relacional y no relacional"
+        height="280"
+        width="560">
+    </div>
+
+    <div class="tabla">
+
+    <table>
+        <thead>
+            <tr>
+            <th>Relacionales</th>
+            <th>No relacionales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Es como organizar todo en tablas de Excel, puras filas y columnas bien ordenadas que se conectan entre sí mediante llaves (IDs). Aquí las cosas son estrictas: antes de meter datos, tienes que definir exactamente qué tipo de información va a ir en cada columna (números, textos, fechas). Son ideales cuando manejas datos que deben estar súper estructurados y relacionados, como las cuentas de usuarios o transacciones de dinero.</td>
+            <td>Es más libre, funciona como cajas o documentos independientes (por ejemplo, formato JSON). No necesitas crear tablas rígidas ni planear una estructura fija desde antes; puedes guardar información diferente en cada registro sin que te marque error. Son perfectas cuando manejas volúmenes grandes de datos que cambian constantemente o que no tienen una forma fija.</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h4>Gestores para bases de datos relacionales</h4>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Oracle</li>
+                        <li>PosgrSQL</li>
+                        <li>MariaDB</li>
+                        <li>SQLite</li>
+                    </ul>
+                </td>
+
+
+                <td>
+                    <h4>Gestores para bases de datos NO relacionales</h4>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Cassandra</li>
+                        <li>Redis</li>
+                        <li>DynamoDB</li>
+                        <li>Neo4j</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+
+    <div class="cara">
+
+        <img src="img/c6.png"
+        id="carita2"
+        alt="Globo de texto - Buenas prácticas en PosgreSQL"
+        height="280"
+        width="560">
+
+    </div>
+
+    <div class="tabla">
+        <table>
+        <thead>
+            <tr>
+            <th>Buenas prácticas en PosgreSQL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>
+                <ul>
+                    <li>Se recomienda no crear bases de datos ni objetos en public</li>
+                    <li>Se debe crear una nueva base de datos y en ella un nuevo esquema para insertar tablas</li>
+                    <li>PosgreSQL usa minúsculas principalmente, es recomendado evitar usar mayúsculas por si después se necesita migrar la base de datos a otro gestor</li>
+                    <li>Los nombres de las tablas es en plural, los nombres de los campos en singular</li>
+                    <li>Se debe planear bien las tablas, no agregando campos innecesarios para no hacerlas demasiado grandes lateralmente</li>
+                    <li>De manera preferente se debe hacer un nuevo registro en vez de actualizar o eliminar un registro anterior</li>
+                </ul>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+
+    <div class="tabla">
+        <table>
+        <thead>
+            <tr>
+            <th>Jerarquía de una base de datos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>
+                <ul>
+                    <li>Los servidores son los containers principales de la base de datos, hace referencia al gestor de la base, no a la base en si</li>
+                    <li>Cada servidor puede tener n numero de puertos, nos ayuda a enlazarnos al servicio de la base de datos</li>
+                    <li>Cada puerto puede tener varias bases de datos</li>
+                    <li>Cada base de datos puede tener varios esquemas</li>
+                    <li>Cada esquema puede tener varias tablas y estas a su vez varias columnas </li>
+                </ul>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <div class="cara">
+        <img src="img/c1.png"
+        id="carita3"
+        alt="Globo de texto - Preguntas"
+        height="280"
+        width="560">
+    </div>
+    </div>
+
+    <audio src="Sylendanna - AH AH Instrumental (Official Audio - Free Download).mp3"
+    id="song"
+    preload="metadata"
+    autoplay></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
